@@ -2,7 +2,10 @@
 
 $ eval $(minikube docker-env) 
 
+
 $ docker build -t dockerbogo/flask-hello-kubernetes:2.0.0 . 
+
+
 $ docker push dockerbogo/flask-hello-kubernetes:2.0.0 
  
  
