@@ -1,4 +1,4 @@
-# Flask with Kubernetes (Minikube)
+## Flask with Kubernetes (Minikube)
 
 $ eval $(minikube docker-env) 
 
@@ -17,7 +17,7 @@ $ kubectl get service
 $ minikube service flask-hello-kubernetes-service --url 
 
 
-Ref: 
+## Reference
 
 [Docker & Kubernetes : minikube](https://www.bogotobogo.com/DevOps/Docker/Docker_Kubernetes_Minikube.php)
 
